@@ -1,0 +1,35 @@
+# Cython / C extensions
+cythonize.json
+spacy/*.html
+*.cpp
+*.c
+*.so
+build/
+
+# Python
+.Python
+.python-version
+__pycache__/
+.pytest_cache
+*.py[cod]
+.env/
+.env*
+.~env/
+.venv
+venv/
+env3.*/
+.dev
+.denv
+.pypyenv
+.pytest_cache/
+
+# Windows
+*.bat
+Thumbs.db
+Desktop.ini
+
+# Mac OS X
+*.DS_Store
+
+# Pycharm project files
+*.idea
